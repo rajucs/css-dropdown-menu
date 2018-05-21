@@ -1,0 +1,275 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	width: 80%;
+	margin: auto;
+	background-color: #2F8ECE;
+	min-height: 60px;
+	margin-bottom: 20px;
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.menu ul li{
+	float: left;
+	border-right: 2px solid #2F8ECE;
+	border-left: 2px solid #226FA4;
+	position: relative;
+}
+.menu ul li:first-child{border-left: 0px solid}
+.menu ul li:last-child{border-right: 0px solid}
+.menu ul li a{
+	padding: 20px;
+	text-decoration: none;
+	color: #FFF;
+	display: block;
+}
+.menu ul li a:hover{
+	background-color: #0C6EB0;
+}
+/*Dropdown starts*/
+
+.menu ul li ul{
+	position: absolute;
+	left: -99999px;
+	background-color: #60A7D7;
+}
+.menu ul li ul li{
+	float: none;
+	border-right: 0px solid;
+	border-left: 0px solid;
+	width: 200px;
+	border-bottom: 1px solid #fff;
+}
+.menu ul li ul li a{text-decoration: none;padding: 15px;}
+.menu ul li:hover ul{
+	left: 0;
+}
+
+/*second menu start from here*/
+
+.menu1{
+	background-color: #CBD0D4;
+	min-height: 60px;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.menu1 ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.menu1 ul li{
+	float: left;
+	position: relative;
+	border-left: 1px solid #7A8C9A;
+	border-right: 1px solid #686F74;
+}
+.menu1 ul li:first-child{border-left: 0px solid;}
+.menu1 ul li:last-child{border-right: 0px solid;}
+.menu1 ul li a{
+	padding: 20px;
+	display: block;
+	color: #6B6459;
+	text-decoration: none;
+}
+.menu1 ul li a:hover{
+	background-color: #36393C;
+	color: white;
+}
+
+/*dropdown starts from here*/
+
+.menu1 ul li ul{
+	position: absolute;
+	left: -999999px;
+	background-color: #AEBFCD;	
+}
+.menu1 ul li ul li{
+	border-right: 0px solid;
+	border-left: 0px solid;
+	border-bottom: 1px solid #fff;
+	width: 200px;
+}
+.menu1 ul li ul li:last-child{
+	border-bottom: 0px solid;
+}
+.menu1 ul li:hover ul{
+	left: 0;
+}
+.menu1 ul li ul li a{
+	color: #6B6459;
+}
+.menu1 ul li ul li a:hover{
+	background-color: #D4E0E9;
+}
+
+/*Third menu start from here*/
+
+.menu2{
+	background-color: #19B697;
+	min-height: 60px;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.menu2 ul{
+	list-style-type: none;
+	padding: 0;
+	margin-right: 0;
+}
+.menu2 ul li{
+	float: left;
+	border-right: 1px solid #4DF1D1;
+	border-left: 1px solid #28D7B4;
+	position: relative;
+}
+.menu2 ul li:first-child{
+	border-left: 0px solid;
+}
+.menu2 ul li:last-child{
+	border-right: 0px solid;
+}
+.menu2 ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+	color: #fff;
+}
+.menu2 ul li a:hover{
+	background-color: #058B71;
+}
+/*dropdown starts from here*/
+
+.menu2 ul li ul{
+	position: absolute;
+	left: -999999px;
+	background-color: #74DCC8;
+}
+.menu2 ul li ul li{
+	border-right: 0px solid;
+	border-left: 0px solid;
+	border-bottom: 1px solid #fff;
+	width: 200px;
+}
+.menu2 ul li:hover ul{
+	left: 0;
+}
+.menu2 ul li ul li a{}
+
+/*menu 3 starts from here*/
+
+.menu3{
+	background-color: #354B60;
+	height: 60px;
+	width: 80%;
+	margin: auto;	
+	margin-bottom: 20px;
+}
+.menu3 ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.menu3 ul li{
+	float: left;
+	border-left: 1px solid #75797D;
+	border-right: 1px solid #515356;
+	position: relative;
+}
+.menu3 ul li:first-child{
+	border-left: 0px solid;
+}
+.menu3 ul li:last-child{
+	border-right: 0px solid;
+}
+.menu3 ul li a{
+	color: #fff;
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+}
+.menu3 ul li a:hover{
+	background-color: #697A8A;
+}
+/*dropdown menu starts from here*/
+
+.menu3 ul li ul{
+	left: -99999px;
+	position: absolute;
+}
+.menu3 ul li ul li{
+	width: 220px;
+	border-right: 0px solid;
+	border-left: 0px solid;
+	border-bottom: 1px solid #FFF;
+}
+.menu3 ul li ul li:last-child{
+	border-bottom: 0px solid;
+}
+.menu3 ul li:hover ul{
+	left: 0;
+	background-color: #2C3136;
+}
+.menu3 ul li ul li a{
+
+}
+
+/*menu 4 starts from here*/
+
+.menu4{
+	background-color: #D14234;
+	width: 80%;
+	margin: auto;
+	height: 60px;
+}
+.menu4 ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.menu4 ul li{
+	float: left;
+	border-right: 1px solid #7E362F;
+	border-left: 1px solid #F16052;
+	position: relative;
+}
+.menu4 ul li:first-child{
+	border-left: 0px solid;
+}
+.menu4 ul li:last-child{
+	border-right: 0px solid;
+}
+.menu4 ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+	color: #FFF;
+}
+.menu4 ul li a:hover{
+	background-color: #7E231A;
+}
+
+/*dropdown menu starts from here*/
+
+.menu4 ul li ul{
+	position: absolute;
+	left: -99999px;
+	background-color: #5D2B26;
+}
+.menu4 ul li ul li{
+	float: none;
+	width: 220px;
+	border-bottom: 1px solid #fff;
+}
+.menu4 ul li:hover ul{
+	left: 0;
+}
+.menu4 ul li ul li a{
+
+}
